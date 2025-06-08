@@ -4,9 +4,7 @@
  */
 exports.up = async (knex) => {
   await knex.schema.createTable("list", (table) => {
-    table.increments("id").primary();
-    table.integer("user_id");
-    table.foreign("user_id").references("users.id").onDelete("CASCADE");
+    table.increments("id");
     table.string("text");
     table.timestamp("created_at", { useTz: true }).defaultTo(knex.fn.now());
   });
