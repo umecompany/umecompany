@@ -5,30 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc6dfc2f-3b01-4e66-93cc-4c1a833a1790" name="変更" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b7181dcb-1894-40ce-92ff-d338358a8036.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b7181dcb-1894-40ce-92ff-d338358a8036/storage_v2/_src_/database/umecompany.EOcx-w.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b7181dcb-1894-40ce-92ff-d338358a8036/storage_v2/_src_/database/umecompany.EOcx-w/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b7181dcb-1894-40ce-92ff-d338358a8036/storage_v2/_src_/database/umecompany.EOcx-w/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b7181dcb-1894-40ce-92ff-d338358a8036/storage_v2/_src_/database/umecompany.EOcx-w/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqlDataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knex_migrations.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/db/data/migration/20250608024720_users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/db/data/migration/20250608024942_list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/db/data/seed/01_users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/db/data/seed/02_list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/db/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/db/knexfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1749342625995</updated>
-      <workItem from="1749342627010" duration="13204000" />
+      <workItem from="1749342627010" duration="15780000" />
     </task>
     <servers />
   </component>
