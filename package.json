@@ -1,0 +1,40 @@
+{
+  "name": "umecompany",
+  "version": "1.0.0",
+  "description": "- 色んなテストをするためにこのプロジェクトを作成しました",
+  "main": "server.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "migrate-latest": "npx knex migrate:latest --knexfile server/db/knexfile.js",
+    "migrate-down": "npx knex migrate:down --knexfile server/db/knexfile.js",
+    "migrate-make": "npx knex migrate:make --knexfile server/db/knexfile.js",
+    "seed-data": "npx knex seed:run --knexfile server/db/knexfile.js",
+    "seed-make": "npx knex seed:make --knexfile server/db/knexfile.js",
+    "db:reset": "npx knex migrate:rollback --all --knexfile server/db/knexfile.js && npm run migrate-latest && npm run seed-data",
+    "build": "npm install && npm run db:reset && cd client && npm install && npm run build && rm -rf ../public && cp -r dist ../public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umecompany/umecompany.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umecompany/umecompany/issues"
+  },
+  "homepage": "https://github.com/umecompany/umecompany#readme",
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "chai-http": "^5.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "knex": "^3.1.0",
+    "mocha": "^11.5.0",
+    "nodemon": "^3.1.10",
+    "pg": "^8.16.0",
+    "prettier": "^3.5.3"
+  }
+}
